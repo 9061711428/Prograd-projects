@@ -1,64 +1,157 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css"> 
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
-<body>
-   <div class="container">
-       <div class="nav">
-           <ul>
-               <li><a href="#">HOME</a></li>
-               <li><a href="#">BIO</a></li>
-               <li><a href="#">PORTFOLIO</a></li>
-               <li><a href="#">SKILLS</a></li>
-               <li id="last-li"><a href="#">CONTACT</a></li>
 
-           </ul>
-           <h2 id="pro_color">ProGrad 001</h2>
+<body>
+    <div class="container">
+        <div class="nav">
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">BIO</a></li>
+                <li><a href="#">PORTFOLIO</a></li>
+                <li><a href="#">SKILLS</a></li>
+                <li id="last-li"><a href="#">CONTACT</a></li>
+
+            </ul>
+            <h2 id="pro_color">ProGrad 001</h2>
         </div>
-           <div class="section-one"><br><br><br><br><br><br>
+        <div class="section-one"><br><br><br><br><br><br>
             <h3 id="believe">I BELIEVE IN</h3>
             <h1 id="eat">EAT (); SLEEP ();CODE();REPEAT ();</h1>
         </div>
-       <div class="section-two">
-           <img src="images/img_2.JPG" alt="not loaded">
+        <div class="section-two">
+            <img src="images/img_2.JPG" alt="not loaded">
+            <center>
+                <p id="description">
+                    <h2 id="des-pro">Prograd 007</h2> <br>
+                    I graduated in Computer Science & Engineering from BIET, Suri, West Bengal<br> in June 2019. I
+                    joined the ProGrad Full Stack Developer Program on 26th<br> August 2019.
+                    I was aware of technologies before joining this program but <br>know how to learn new.This
+                    program taught me how to learn any technology.<br>
 
-           <p id="description">
-            I graduated in Computer Science & Engineering from BIET, Suri, West Bengal in June 2019.<br> I joined the ProGrad Full Stack Developer Program on 26th August 2019.
-             <br><br>I was aware of technologies before joining this program but didn't know how to learn new technology.<br> This program taught me how to learn any technology.
-            
-            <br>This training program continued for 90 days in the Bangalore FACE office. During the span of 90 days,<br><br> we were exposed to the expectations of the industry. We attended some tech conferences, meetups and also got the opportunity to interact with industry experts.
-           
-           <br>
-           <br><br> <button>
-               <h3>Download My Resume</h3>
-            </button>
-        </p>
+                    <br>This training program continued for 90 days in the Bangalore FACE office. <br>During the span of
+                    90days,we were exposed to the expectations of the industry.<br> We attended some techconferences,
+                    meetups and also got the opportunity to <br>interact with industry experts.
 
-       </div>
-       <div class="section-three">
-           <h1 id="prof">PROTFOLIO</h1>
-           <br><br>
-           <h3 id="prof">Some of my best project so far</h3>
-           <hr>
-           <span class="one">
-               <h2>PERSONAL BLOG</h2>
-               <h4>A blog where I pen my own <br>
-            throughts on programming</h4>
-           </span>
-           <span class="one">
-            <h2>PTIC TAC TOE</h2>
-        </span>
-        <span class="one">
-            <h2>TIME TABLE GENERATOR</h2>
-        </span>
-       </div>
+                    <br>
+                    <button>
+                        <h3>Download My Resume</h3>
+                    </button>
+                </p>
+            </center>
 
-    
-       
-   </div> 
+        </div>
+        <div class="section-three">
+
+            <h1 id="prof">PROTFOLIO</h1>
+            <br><br>
+            <h3 id="prof">Some of my best project so far</h3>
+            <hr>
+            <div class="container-fluid bg-3 text-center">
+                <div class="row">
+                    <div class="one">
+                        <div class="col-sm-3"><br>
+                            <img src="https://i1.faceprep.in/ProGrad/Coding-icon.svg">
+                            <h3>PERSONAL BLOG</h3>
+                            <h4>A blog where I pen my<br>
+                                own throughts on programming</h4>
+                        </div>
+                    </div>
+                    <div class="two">
+                        <div class="col-sm-3">
+                            <br>
+
+                            <img src="https://i1.faceprep.in/ProGrad/Coding-icon.svg">
+                            <h3>PTIC TAC TOE</h3>
+                            <h4>Complete TicTacToe game<br>
+                                with GUI and java</h4>
+
+                        </div>
+                    </div>
+                    <div class="three">
+                        <div class="col-sm-3">
+                            <br>
+                            <img src="https://i1.faceprep.in/ProGrad/Coding-icon.svg">
+
+                            <h3>TIME TABLE GENERATOR</h3>
+                            <h4>A web application for <br>
+                                automatic timetable generator</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section-four">
+
+            <div>
+                <h2 id="skl">SKILLS</h2>
+
+                <div class="left-side">
+                    <div>
+                        <h2 id="tech">Technical skills</h2><br>
+                        <ul>
+                            <li>
+                                <h5 id="hl">HTML</h5>
+                            </li>
+                            <li><progress max="100" value="80"></progress></li>
+                            <li>
+                                <h5 id="hl">CSS</h5>
+                            </li>
+                            <li><progress max="100" value="60"></progress></li>
+                            <li>
+                                <h5 id="hl">Java</h5>
+                            </li>
+                            <li><progress max="100" value="80"></progress></li>
+
+                            <li>
+                                <h5 id="hl">Javascript</h5>
+                            </li>
+                            <li><progress max="100" value="50"></progress></li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <ul>
+
+                            <h2 id="lang">Languages</h2><br>
+                            <li>
+                                <h5 id="hl">English</h5>
+                            </li>
+                            <li><progress max="100" value="70"></progress></li>
+                            <li>
+                                <h5 id="hl">Malayalam</h5>
+                            </li>
+                            <li><progress max="100" value="80"></progress></li>
+
+                            <li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="section-five">
+            <h2 id="contact">CONTACT</h2>
+            <form>
+                <input type="text" placeholder="Enter your name" style="width:40%"><br><br>
+                <input type="text" placeholder="Enter your Email" style="width:40%"><br><br>
+                <input type="text" placeholder="Enter Message" style="width:40%"><br><br>
+                <button>Send Message</button>
+            </form>
+        </div>
+    </div>
 </body>
+
 </html>

@@ -1,84 +1,188 @@
-body{
-    margin:0;
+body {
+    margin: 0;
 }
-.container{
-    height: 1500px;
-    background-color:black;
+
+.container {
+    height: 2400px;
+    background-color: black;
+
 }
-.nav #pro_color{
+
+.nav #pro_color {
     color: coral;
 }
-.nav{
+
+.nav {
     background-color: gainsboro;
     height: 48px;
 }
 
-.nav ul{
-float:right;
-margin-top: 2px;
+.nav ul {
+    float: right;
+    margin-top: 2px;
 }
 
 
-.nav ul li{
-    display:inline-block;
-    list-style:none;
+.nav ul li {
+    display: inline-block;
+    list-style: none;
     justify-content: space-between;
     padding: 21px;
-   
+
 }
-.nav ul li a{
+
+.nav ul li a {
     text-decoration: none;
-    color:black;
+    color: black;
 }
-#last-li{
+
+#last-li {
     background-color: coral;
     height: 4px;
-    
-}
-.section-one{
-    background-color: black;
-    height:500px;
 
-   
 }
-#believe{
+
+.section-one {
+    background-color: black;
+    height: 500px;
+
+
+}
+
+#believe {
     padding-left: 300px;
     color: white;
 }
-#eat{
+
+#eat {
     padding-left: 300px;
-    color:white;
+    color: white;
 }
-.section-two{
-   
+
+.section-two {
+
     background-color: rgb(167, 156, 167);
     height: 500px;
-   
+
+
 }
-.section-two img{
-    padding-left:300px; 
-    padding-top:50px;
-    
+
+.section-two,
+.section-four {
+    display: flex;
+    align-items: center;
+    padding-left: 200px;
 }
-#description{
-   padding-top:0;
-    text-align: left;
-    padding-left: 450px;
+
+.section-two img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-top: 10px;
+    align-items: center;
+
 }
-button{
+
+
+
+button {
     background-color: tomato;
     color: white;
 }
-#prof{
+
+.section-three {
+
+    background-color: black;
+    height: 500px;
+}
+
+
+#prof {
     text-align: center;
     color: white;
 }
-hr{
+
+hr {
     color: white;
-    width: 250px;
-}
-.one{
-    background-color: white;
-    color:black;
+    margin: 200px;
+
 }
 
+.one {
+
+    padding-left: 200px;
+
+
+}
+
+.row {
+    height: 350px;
+
+}
+
+.col-sm-3 {
+    width: 100%;
+    background-color: white;
+    height: 250px;
+    color: black;
+    border: 10px solid;
+    border-radius: 10%;
+
+}
+
+.section-four {
+    background-color: gainsboro;
+    height: 500px;
+}
+
+.left-side {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+
+
+}
+
+progress[value] {
+    height: 10px;
+    width: 350px;
+    -webkit-appearance: none;
+}
+
+progress[value]::-webkit-process-bar {
+    background-color: darkgrey;
+    border-radius: 2px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2 inset);
+
+}
+
+::-webkit-progress-value {
+    background-color: #f05136;
+}
+
+#skl {
+    padding-left: 300px;
+}
+
+
+.left-side ul li {
+    list-style-type: none;
+}
+
+#tech,
+#hl {
+    padding-left: 30px;
+    text-align: left;
+}
+
+.section-five {
+    background-color: black;
+    height: 250px;
+    text-align: center;
+}
+
+#contact {
+    color: white;
+    text-align: center;
+
+}
